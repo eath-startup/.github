@@ -1,0 +1,26 @@
+name: Research
+description: Recherche ou investigation
+title: "[RESEARCH] "
+labels: ["research"]
+
+body:
+
+- type: textarea
+  id: context
+  attributes:
+    label: Context
+    description: Contexte de la recherche
+  validations:
+    required: true
+
+- type: textarea
+  id: questions
+  attributes:
+    label: Questions
+    description: Questions auxquelles répondre
+
+- type: textarea
+  id: deliverables
+  attributes:
+    label: Deliverables
+    description: Résultat attendu
