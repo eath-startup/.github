@@ -1,0 +1,26 @@
+name: Technical task
+description: Tâche technique ou amélioration
+title: "[TASK] "
+labels: ["task"]
+
+body:
+
+- type: textarea
+  id: description
+  attributes:
+    label: Description
+    description: Décrire la tâche technique
+  validations:
+    required: true
+
+- type: textarea
+  id: context
+  attributes:
+    label: Context
+    description: Pourquoi cette tâche est nécessaire ?
+
+- type: textarea
+  id: deliverables
+  attributes:
+    label: Deliverables
+    description: Résultat attendu
