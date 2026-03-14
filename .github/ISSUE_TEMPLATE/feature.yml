@@ -1,0 +1,32 @@
+name: Feature request
+description: Proposer une nouvelle fonctionnalité
+title: "[FEATURE] "
+labels: ["feature"]
+
+body:
+
+- type: textarea
+  id: description
+  attributes:
+    label: Description
+    description: Décrire la fonctionnalité
+  validations:
+    required: true
+
+- type: textarea
+  id: objective
+  attributes:
+    label: Objectif
+    description: Quel problème cette fonctionnalité résout ?
+
+- type: textarea
+  id: scope
+  attributes:
+    label: Scope
+    description: Ce qui doit être implémenté
+
+- type: textarea
+  id: acceptance
+  attributes:
+    label: Acceptance Criteria
+    description: Conditions pour considérer la tâche terminée
