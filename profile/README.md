@@ -80,7 +80,7 @@ This list reflects what the mobile app does today.
 </p>
 
 <p align="center">
-  <sub>EATH on the App Store (MVP)</sub>
+  <sub>EATH on the App Store</sub>
 </p>
 
 <!-- In-app captures (scan / result / account) to add later: commit to profile/assets/ and use absolute raw URLs.
